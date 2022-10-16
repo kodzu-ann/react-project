@@ -10,3 +10,13 @@ li {
   list-style: none;
   margin-top: 5px;
 }
+
+.github-link {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 15px;
+  text-decoration: none;
+  color: aqua;
+}
