@@ -1,15 +1,12 @@
 import "./App.css";
-import Weather from "./Weather";
+import "./styles.css";
+import SearchEngine from "./SearchEngine";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>Hello world</p>
-        <Weather city="Engen" />
-      </header>
+      <h1></h1>
+      <SearchEngine />
     </div>
   );
 }
-
-export default App;
